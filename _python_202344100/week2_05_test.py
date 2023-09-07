@@ -1,4 +1,10 @@
 
+# 문자열은 연산 X, 새로 생성하게 됨
+my_major = "컴퓨터정보" 
+my_major += "1학년"             
+my_major += "파이선프로그래밍" 
+print(my_major)
+
 # 슬라이싱
 mymajor = "컴퓨터정보" 
 print(mymajor[:])
@@ -32,7 +38,7 @@ print(mymajor[-2])
 print(mymajor[-1])
 print(mymajor)
 
-
+# 연산자의 양쪽엔 동일한 피연산자 사용 필요
 print("=-" * 30)
 print(10 + 10)
 print("나이:" + "10")
