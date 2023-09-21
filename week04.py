@@ -37,3 +37,26 @@ if gen_num == 1 \
   or gen_num == 7 :
     print("남자")
 ```
+```
+# week4_02_elif.py
+
+number = int(input("정수"))
+
+if number > 0:
+  print("양수")
+else:
+  if number < 0:
+    print("양수")
+  elif number < 0:
+    print("음수")
+  else:
+    print("0")
+
+reg_number = input("주민등록번호")
+gender_num = int(reg_num[6])
+
+if gender_num % 2 ==1:
+  print("남자")
+else:   
+  print("여자")
+```
